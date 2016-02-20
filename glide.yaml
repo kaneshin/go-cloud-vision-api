@@ -1,4 +1,4 @@
-package: github.com/kaneshin/go-cloud-vision
+package: github.com/kaneshin/go-cloud-vision-api
 import:
 - package: golang.org/x/oauth2
   subpackages:

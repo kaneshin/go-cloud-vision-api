@@ -16,13 +16,13 @@ Abort this execution file if you don't set the variable or unable to find the fi
 Type the below command to install if you use this application on your device.
 
 ```shell
-go get github.com/kaneshin/go-cloud-vision
+go get github.com/kaneshin/go-cloud-vision-api
 ```
 
-Make sure that `go-cloud-vision` was installed correctly:
+Make sure that `go-cloud-vision-api` was installed correctly:
 
 ```shell
-go-cloud-vision -h
+go-cloud-vision-api -h
 ```
 
 ### Dependencies
@@ -47,18 +47,18 @@ go run main.go lenna.jpg
 or if you already installed as a command.
 
 ```shell
-go-cloud-vision lenna.jpg
+go-cloud-vision-api lenna.jpg
 ```
 
 ## Example
 
 ### input
 
-![lenna.jpg](https://raw.githubusercontent.com/kaneshin/go-cloud-vision/master/lenna.jpg)
+![lenna.jpg](https://raw.githubusercontent.com/kaneshin/go-cloud-vision-api/master/lenna.jpg)
 
 ### output
 
-[more detail](https://github.com/kaneshin/go-cloud-vision/blob/master/result.json)
+[more detail](https://github.com/kaneshin/go-cloud-vision-api/blob/master/result.json)
 
 ```
 [
