@@ -102,7 +102,7 @@ func run() int {
 		return FAILURE
 	}
 
-	// FaceAnnotations
+	// Marshal annotations from responses
 	body, err := json.MarshalIndent(res.Responses, "", "  ")
 	if err != nil {
 		log.Printf("Unable to marshal the response: %v\n", err)
