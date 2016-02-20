@@ -1,0 +1,11 @@
+package: github.com/kaneshin/go-cloud-vision
+import:
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/api
+  subpackages:
+  - vision/...
