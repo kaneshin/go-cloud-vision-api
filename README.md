@@ -58,6 +58,8 @@ go-cloud-vision lenna.jpg
 
 ### output
 
+[more detail](https://github.com/kaneshin/go-cloud-vision/blob/master/result.json)
+
 ```
 [
   {
