@@ -1,5 +1,16 @@
 # Cloud Vision API with Golang
 
+## Prerequisite
+
+You need to export a service account json file into `GOOGLE_APPLICATION_CREDENTIALS` env variable.
+
+```
+$ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/service_account.json
+```
+
+Abort this execution file if you don't set the variable or unable to find the file.
+
+
 ## Installation
 
 Type the below command to install if you use this application on your device.
